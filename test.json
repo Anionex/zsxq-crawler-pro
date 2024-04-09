@@ -1,6 +1,7 @@
 {
-  "succeeded": true,
-  "resp_data": {
-    "topics": []
-  }
+  "succeeded": false,
+  "code": 1059,
+  "info": "",
+  "resp_data": {},
+  "error": "内部错误"
 }

@@ -1,6 +1,6 @@
 h1 {font-size:40px; color:red; text-align:center;}
-p {font-size:30px;}
-img{
+p {font-size:25px;}
+/* img{
 	max-width:100%;
 	margin:20px auto;
 	height:auto;
@@ -9,8 +9,14 @@ img{
 	-webkit-box-shadow: 1px 4px 16px 8px #5CA2BE;
     -moz-box-shadow: 1px 4px 16px 8px #5CA2BE;
     box-shadow: 1px 4px 16px 8px #5CA2BE;
-    /*set the images aligned*/
+
     display: block;
     margin-left: auto;
     margin-right: auto;
+	} */
+img {
+	width: 33.3333%; /* 宽度为容器的三分之一 */
+	height: auto; /* 高度自动，保持图片的纵横比 */
+	flex-grow: 1; /* 让图片填充可用空间 */
+	flex-basis: 33.3333%; /* 基础宽度为三分之一 */
 	}
